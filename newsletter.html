@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="icon" href="logo/medsup.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="nwldiv">
+    <form name="nwl" id="nwl" method="post">
+		<table>
+			<tr>
+				<th colspan="2"><img src="logo/banerlogo.png" alt="banerlogo"></th>
+			</tr>
+			<tr>
+				<td class="nwlinputf">e-mail adresa :</td>
+				<td class="nwlinput">
+					<input class="inputnwli" type="text" name="emailnwl" id="emailnwl" placeholder="example@mail.com">
+				</td>
+			</tr>
+			<tr>
+				<td class="nwlinputf">Ime :</td>
+				<td class="nwlinput">
+					<input class="inputnwli" type="text" name="imenwl" id="imenwl">
+				</td>
+			</tr>
+			<tr>
+				<td class="nwlinputf">Prezime :</td>
+				<td class="nwlinput">
+					<input class="inputnwli" type="text" name="prezimenwl" id="prezimenwl">
+				</td>
+			</tr>
+            <tr>
+				<td class="nwlinputf">Telefon :</td>
+				<td class="nwlinput">
+					<input class="inputnwli" type="number" name="telefonnwl" id="telefonnwl" placeholder="+381">
+				</td>
+			</tr>
+            <tr>
+				<td class="nwlinputf">Pol :</td>
+				<td class="nwlinput">
+					<input type="radio" name="radionwl" id="muski">Muški
+                    <input type="radio" name="radionwl" id="zenski">Ženski
+				</td>
+			</tr>
+            <tr>
+				<td class="nwlinputf">Godine :</td>
+				<td class="nwlinput">
+					<input class="inputnwli" type="number" name="godinenwl" id="godinenwl">
+				</td>
+			</tr>
+		</table>
+        <div class="centernwlb">
+            <button type="submit">Pošalji</button>
+        </div>
+    </form>
+	</div>
+
+
+    <script>
+        document.getElementById('nwl').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Hvala na prijavi !');
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>

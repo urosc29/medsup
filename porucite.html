@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poručite</title>
+    <link rel="icon" href="logo/medsup.png" type="image/png">
+    <link rel="stylesheet" href="css/empty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src="logo/banerlogo.png" alt="banerlogo"></a>
+            </div>
+            <ul class="navigacija">
+                <a href="index.html"><button><li>Početna</li></button></a>
+                <div class="dropdown">
+                    <a href="katalog.html"><button class="dropbtn"><li>Katalog</li></button></a></button>
+                    <div class="dropdown-content">
+                        <a class="bru" href="materijal stranice/opstimaterijal.html">Opšti Materijali</a>
+                        <a href="materijal stranice/hiruskimaterijal.html">Hiruški Materijali</a>
+                        <a href="materijal stranice/ugradnimaterijal.html">Ugradi Materijali</a>
+                        <a href="materijal stranice/dezinfekcija.html">Dezinfekcija</a>
+                        <a class="brd" href="materijal stranice/lekovi.html">Lekovi</a>
+                    </div>
+                </div>
+                <a href="onama.html"><button><li>O nama</li></button></a></button>
+                <a href="kontakt.html"><button><li>Kontkat</li></button></a></button>
+                <a href="porucite.html"><button><li>Poručite</li></button></a></button>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="formaO">
+        <form action=p_email.php name="por" id="por" method="post">
+            <table>
+                <tr>
+                    <th colspan="4">PORUDŽBINA</th>
+                </tr>
+                <tr>
+                    <td class="materijaliT" colspan="4">OPŠTI MATERIJALI</td>
+                </tr>
+                <tr class="sredina">
+                    <td id="kod">KOD</td>
+                    <td id="naziv">NAZIV</td>
+                    <td id="cena">CENA</td>
+                    <td id="kolicina">KOLIČINA</td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop1" for="OP1">OP1</label>
+                        <input type="hidden" name="lop1" id="lop1">
+                    </td>
+                    <td>Curapor 7x5cm 32912</td>
+                    <td>20,00 RSD</td>
+                    <td class="inputc"><input name="OP1" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop2" for="OP2" id="OP2">OP2</label>
+                        <input type="hidden" name="lop2" id="lop2">
+                    </td>
+                    <td>Curapor 10x8cm 32913</td>
+                    <td>35,00 RSD</td>
+                    <td class="inputc"><input name="OP2" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop3" for="OP3" id="OP3">OP3</label>
+                        <input type="hidden" name="lop3" id="lop3">
+                    </td>
+                    <td>Curapor 10x25cm 32916</td>
+                    <td>125,00 RSD</td>
+                    <td class="inputc"><input name="OP3" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop4" for="OP4" id="OP4">OP4</label>
+                        <input type="hidden" name="lop4" id="lop4">
+                    </td>
+                    <td>Dren torakalni bez mandrene CH16</td>
+                    <td>400,00 RSD</td>
+                    <td class="inputc"><input name="OP4" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop5" for="OP5" id="OP5">OP5</label>
+                        <input type="hidden" name="lop5" id="lop5">
+                    </td>
+                    <td>Dren torakalni bez mandrene CH18</td>
+                    <td>450,00 RSD</td>
+                    <td class="inputc"><input name="OP5" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop6" for="OP6" id="OP6">OP6</label>
+                        <input type="hidden" name="lop6" id="lop6">
+                    </td>
+                    <td>Dren torakalni bez mandrene CH20</td>
+                    <td>500,00 RSD</td>
+                    <td class="inputc"><input name="OP6" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop7" for="OP7" id="OP7">OP7</label>
+                        <input type="hidden" name="lop7" id="lop7">
+                    </td>
+                    <td>Dren torakalni bez mandrene CH22</td>
+                    <td>550,00 RSD</td>
+                    <td class="inputc"><input name="OP7" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop8" for="OP8" id="OP8">OP8</label>
+                        <input type="hidden" name="lop8" id="lop8">
+                    </td>
+                    <td>Dren torakalni bez mandrene CH24</td>
+                    <td>605,00 RSD</td>
+                    <td class="inputc"><input name="OP8" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop9" for="OP9" id="OP9">OP9</label>
+                        <input type="hidden" name="lop9" id="lop9">
+                    </td>
+                    <td>Dren abdominalni CH16</td>
+                    <td>200,00 RSD</td>
+                    <td class="inputc"><input name="OP9" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop10" for="OP10" id="OP10">OP10</label>
+                        <input type="hidden" name="lop10" id="lop10">
+                    </td>
+                    <td>Dren abdominalni CH18</td>
+                    <td>250,00 RSD</td>
+                    <td class="inputc"><input name="OP10" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop11" for="OP11" id="OP11">OP11</label>
+                        <input type="hidden" name="lop11" id="lop11">
+                    </td>
+                    <td>Dren abdominalni CH20</td>
+                    <td>300,00 RSD</td>
+                    <td class="inputc"><input name="OP11" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop12" for="OP12" id="OP12">OP12</label>
+                        <input type="hidden" name="lop12" id="lop12">
+                    </td>
+                    <td>Dren abdominalni CH22</td>
+                    <td>350,00 RSD</td>
+                    <td class="inputc"><input name="OP12" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop13" for="OP13" id="OP13">OP13</label>
+                        <input type="hidden" name="lop13" id="lop13">
+                    </td>
+                    <td>Dren abdominalni CH24</td>
+                    <td>390,00 RSD</td>
+                    <td class="inputc"><input name="OP13" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop14" for="OP14" id="OP14">OP14</label>
+                        <input type="hidden" name="lop14" id="lop14">
+                    </td>
+                    <td>Flaster Durapore 2.5cm x 9.14m a12</td>
+                    <td>290,00 RSD</td>
+                    <td class="inputc"><input name="OP14" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop15" for="OP15" id="OP15">OP15</label>
+                        <input type="hidden" name="lop15" id="lop15">
+                    </td>
+                    <td>Flaster Durapore 5cmx9.14m a6</td>
+                    <td>490,00 RSD</td>
+                    <td class="inputc"><input name="OP15" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop16" for="OP16" id="OP16">OP16</label>
+                        <input type="hidden" name="lop16" id="lop16">
+                    </td>
+                    <td>Gaza hidrofilna 10mx80cm</td>
+                    <td>4000,00 RSD</td>
+                    <td class="inputc"><input name="OP16" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop17" for="OP17" id="OP17">OP17</label>
+                        <input type="hidden" name="lop17" id="lop17">
+                    </td>
+                    <td>Hirurške kape</td>
+                    <td>10,00 RSD</td>
+                    <td class="inputc"><input name="OP17" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop18" for="OP18" id="OP18">OP18</label>
+                        <input type="hidden" name="lop18" id="lop18">
+                    </td>
+                    <td>Kaljače 100-1</td>
+                    <td>750,00 RSD</td>
+                    <td class="inputc"><input name="OP18" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop19" for="OP19" id="OP19">OP19</label>
+                        <input type="hidden" name="lop19" id="lop19">
+                    </td>
+                    <td>Kateter Foley CH14</td>
+                    <td>133,00 RSD</td>
+                    <td class="inputc"><input name="OP19" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop20" for="OP20" id="OP20">OP20</label>
+                        <input type="hidden" name="lop20" id="lop20">
+                    </td>
+                    <td>Kateter Foley CH16</td>
+                    <td>135,00 RSD</td>
+                    <td class="inputc"><input name="OP20" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop21" for="OP21" id="OP21">OP21</label>
+                        <input type="hidden" name="lop21" id="lop21">
+                    </td>
+                    <td>Kateter Foley CH18</td>
+                    <td>130,00 RSD</td>
+                    <td class="inputc"><input name="OP21" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop22" for="OP22" id="OP22">OP22</label>
+                        <input type="hidden" name="lop22" id="lop22">
+                    </td>
+                    <td>Kateter Foley CH20</td>
+                    <td>125,00 RSD</td>
+                    <td class="inputc"><input name="OP22" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop23" for="OP23" id="OP23">OP23</label>
+                        <input type="hidden" name="lop23" id="lop23">
+                    </td>
+                    <td>Kateter silik Foley pedijatr. CH6</td>
+                    <td>1035,00 RSD</td>
+                    <td class="inputc"><input name="OP23" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop24" for="OP24" id="OP24">OP24</label>
+                        <input type="hidden" name="lop24" id="lop24">
+                    </td>
+                    <td>Kateter silik Foley pedijatr. CH8</td>
+                    <td>1035,00 RSD</td>
+                    <td class="inputc"><input name="OP24" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop25" for="OP25" id="OP25">OP25</label>
+                        <input type="hidden" name="lop25" id="lop25">
+                    </td>
+                    <td>Kateter silik Foley pedijatr. CH10</td>
+                    <td>1035,00 RSD</td>
+                    <td class="inputc"><input name="OP25" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop26" for="OP26" id="OP26">OP26</label>
+                        <input type="hidden" name="lop26" id="lop26">
+                    </td>
+                    <td>Maska, hiruška sa gumicom troslojna</td>
+                    <td>5,00 RSD</td>
+                    <td class="inputc"><input name="OP26" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop27" for="OP27" id="OP27">OP27</label>
+                        <input type="hidden" name="lop27" id="lop27">
+                    </td>
+                    <td>Raucodrape Arthroscopy set for knee 33348</td>
+                    <td>2622,00 RSD</td>
+                    <td class="inputc"><input name="OP27" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop28" for="OP28" id="OP28">OP28</label>
+                        <input type="hidden" name="lop28" id="lop28">
+                    </td>
+                    <td>Raucodrape Rectum-Set l 33325</td>
+                    <td>3522,00 RSD</td>
+                    <td class="inputc"><input name="OP28" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop29" for="OP29" id="OP29">OP29</label>
+                        <input type="hidden" name="lop29" id="lop29">
+                    </td>
+                    <td>Raucodrape Smart C section set 33861</td>
+                    <td>2855,00 RSD</td>
+                    <td class="inputc"><input name="OP29" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop30" for="OP30" id="OP30">OP30</label>
+                        <input type="hidden" name="lop30" id="lop30">
+                    </td>
+                    <td>Raucodrape Smart Universal Set 33801</td>
+                    <td>1910,00 RSD</td>
+                    <td class="inputc"><input name="OP30" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop31" for="OP31" id="OP31">OP31</label>
+                        <input type="hidden" name="lop31" id="lop31">
+                    </td>
+                    <td>Rukavice hiru. sterilne 7</td>
+                    <td>46,00 RSD</td>
+                    <td class="inputc"><input name="OP31" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop32" for="OP32" id="OP32">OP32</label>
+                        <input type="hidden" name="lop32" id="lop32">
+                    </td>
+                    <td>Rukavice hiru. sterilne 7.5</td>
+                    <td>46,00 RSD</td>
+                    <td class="inputc"><input name="OP32" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop33" for="OP33" id="OP33">OP33</label>
+                        <input type="hidden" name="lop33" id="lop33">
+                    </td>
+                    <td>Rukavice hiru. sterilne 8</td>
+                    <td>46,00 RSD</td>
+                    <td class="inputc"><input name="OP33" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop34" for="OP34" id="OP34">OP34</label>
+                        <input type="hidden" name="lop34" id="lop34">
+                    </td>
+                    <td>Rukavice hiru. sterilne 8.5</td>
+                    <td>46,00 RSD</td>
+                    <td class="inputc"><input name="OP34" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop35" for="OP35" id="OP35">OP35</label>
+                        <input type="hidden" name="lop35" id="lop35">
+                    </td>
+                    <td>Rukavice pregledne M</td>
+                    <td>5,00 RSD</td>
+                    <td class="inputc"><input name="OP35" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop36" for="OP36" id="OP36">OP36</label>
+                        <input type="hidden" name="lop36" id="lop36">
+                    </td>
+                    <td>Rukavice pregledne L</td>
+                    <td>5,00 RSD</td>
+                    <td class="inputc"><input name="OP36" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop37" for="OP37" id="OP37">OP37</label>
+                        <input type="hidden" name="lop37" id="lop37">
+                    </td>
+                    <td>Rukavice pregledne XL</td>
+                    <td>5,00 RSD</td>
+                    <td class="inputc"><input name="OP37" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop38" for="OP38" id="OP38">OP38</label>
+                        <input type="hidden" name="lop38" id="lop38">
+                    </td>
+                    <td>Skalpel nožić 11 1/100</td>
+                    <td>140,00 RSD</td>
+                    <td class="inputc"><input name="OP38" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop39" for="OP39" id="OP39">OP39</label>
+                        <input type="hidden" name="lop39" id="lop39">
+                    </td>
+                    <td>Skalpel nožić 15 1/100</td>
+                    <td>140,00 RSD</td>
+                    <td class="inputc"><input name="OP39" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop40" for="OP40" id="OP40">OP40</label>
+                        <input type="hidden" name="lop40" id="lop40">
+                    </td>
+                    <td>Skalpel nožić 20 1/100</td>
+                    <td>140,00 RSD</td>
+                    <td class="inputc"><input name="OP40" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop41" for="OP41" id="OP41">OP41</label>
+                        <input type="hidden" name="lop41" id="lop41">
+                    </td>
+                    <td>Skalpel nožić 21 1/100</td>
+                    <td>140,00 RSD</td>
+                    <td class="inputc"><input name="OP41" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop42" for="OP42" id="OP42">OP42</label>
+                        <input type="hidden" name="lop42" id="lop42">
+                    </td>
+                    <td>Steri Drape 82x45cm, ref: 1050</td>
+                    <td>645,00 RSD</td>
+                    <td class="inputc"><input name="OP42" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop43" for="OP43" id="OP43">OP43</label>
+                        <input type="hidden" name="lop43" id="lop43">
+                    </td>
+                    <td>Špric Nipro 2.5ml</td>
+                    <td>10,00 RSD</td>
+                    <td class="inputc"><input name="OP43" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop44" for="OP44" id="OP44">OP44</label>
+                        <input type="hidden" name="lop44" id="lop44">
+                    </td>
+                    <td>Špric Nipro 5ml</td>
+                    <td>15,00 RSD</td>
+                    <td class="inputc"><input name="OP44" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop45" for="OP45" id="OP45">OP45</label>
+                        <input type="hidden" name="lop45" id="lop45">
+                    </td>
+                    <td>Špric Nipro 10ml</td>
+                    <td>25,00 RSD</td>
+                    <td class="inputc"><input name="OP45" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop46" for="OP46" id="OP46">OP46</label>
+                        <input type="hidden" name="lop46" id="lop46">
+                    </td>
+                    <td>Talasasta drenaža 40cm</td>
+                    <td>1815,00 RSD</td>
+                    <td class="inputc"><input name="OP46" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop47" for="OP47" id="OP47">OP47</label>
+                        <input type="hidden" name="lop47" id="lop47">
+                    </td>
+                    <td>T-dren silikonski CH14</td>
+                    <td>1485,00 RSD</td>
+                    <td class="inputc"><input name="OP47" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop48" for="OP48" id="OP48">OP48</label>
+                        <input type="hidden" name="lop48" id="lop48">
+                    </td>
+                    <td>T-dren silikonski CH16</td>
+                    <td>1485,00 RSD</td>
+                    <td class="inputc"><input name="OP48" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop49" for="OP49" id="OP49">OP49</label>
+                        <input type="hidden" name="lop49" id="lop49">
+                    </td>
+                    <td>T-dren silikonski CH18</td>
+                    <td>2035,00 RSD</td>
+                    <td class="inputc"><input name="OP49" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop50" for="OP50" id="OP50">OP50</label>
+                        <input type="hidden" name="lop50" id="lop50">
+                    </td>
+                    <td>T-dren silikonski CH20</td>
+                    <td>2035,00 RSD</td>
+                    <td class="inputc"><input name="OP50" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop51" for="OP51" id="OP51">OP51</label>
+                        <input type="hidden" name="lop51" id="lop51">
+                    </td>
+                    <td>Vazelin, 250 ml</td>
+                    <td>420,00 RSD</td>
+                    <td class="inputc"><input name="OP51" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop52" for="OP52" id="OP52">OP52</label>
+                        <input type="hidden" name="lop52" id="lop52">
+                    </td>
+                    <td>Vazelinska gaza 10x10 cm</td>
+                    <td>50,00 RSD</td>
+                    <td class="inputc"><input name="OP52" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop53" for="OP53" id="OP53">OP53</label>
+                        <input type="hidden" name="lop53" id="lop53">
+                    </td>
+                    <td>Zavoj elastični 15cmx10m</td>
+                    <td>985,00 RSD</td>
+                    <td class="inputc"><input name="OP53" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop54" for="OP54" id="OP54">OP54</label>
+                        <input type="hidden" name="lop54" id="lop54">
+                    </td>
+                    <td>Zavoj elastični 7,5cmx4.6 m COBAN</td>
+                    <td>600,00 RSD</td>
+                    <td class="inputc"><input name="OP54" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop55" for="OP55" id="OP55">OP55</label>
+                        <input type="hidden" name="lop55" id="lop55">
+                    </td>
+                    <td>Zavoj Mollelast 10cmx20m</td>
+                    <td>625,00 RSD</td>
+                    <td class="inputc"><input name="OP55" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop56" for="OP56" id="OP56">OP56</label>
+                        <input type="hidden" name="lop56" id="lop56">
+                    </td>
+                    <td>Zavoji, kaliko 6x5</td>
+                    <td>31,00 RSD</td>
+                    <td class="inputc"><input name="OP56" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop57" for="OP57" id="OP57">OP57</label>
+                        <input type="hidden" name="lop57" id="lop57">
+                    </td>
+                    <td>Zavoji, kaliko 10x5</td>
+                    <td>31,00 RSD</td>
+                    <td class="inputc"><input name="OP57" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop58" for="OP58" id="OP58">OP58</label>
+                        <input type="hidden" name="lop58" id="lop58">
+                    </td>
+                    <td>Zavoji, kaliko 12x5</td>
+                    <td>31,00 RSD</td>
+                    <td class="inputc"><input name="OP58" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wop59" for="OP59" id="OP59">OP59</label>
+                        <input type="hidden" name="lop59" id="lop59">
+                    </td>
+                    <td>Zavoji, kaliko 15x5</td>
+                    <td>31,00 RSD</td>
+                    <td class="inputc"><input name="OP59" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="materijaliT" colspan="4">DEZINFEKCIJA</td>
+                </tr>
+                <tr class="sredina">
+                    <td id="kod">KOD</td>
+                    <td id="naziv">NAZIV</td>
+                    <td id="cena">CENA</td>
+                    <td id="kolicina">KOLIČINA</td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd1" for="D1" id="D1">D1</label>
+                        <input type="hidden" name="ld1" id="ld1">
+                    </td>
+                    <td>Alkohol 70% a 1 lit</td>
+                    <td>145,00 RSD</td>
+                    <td class="inputc"><input name="D1" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd2" for="D2" id="D2">D2</label>
+                        <input type="hidden" name="ld2" id="ld2">
+                    </td>
+                    <td>AAsepsol 1% 750ml sa pumpicom</td>
+                    <td>200,00 RSD</td>
+                    <td class="inputc"><input name="D2" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd3" for="D3" id="D3">D3</label>
+                        <input type="hidden" name="ld3" id="ld3">
+                    </td>
+                    <td>Clinell vl.mar.zelene A 200</td>
+                    <td>1080,00 RSD</td>
+                    <td class="inputc"><input name="D3" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd4" for="D4" id="D4">D4</label>
+                        <input type="hidden" name="ld4" id="ld4">
+                    </td>
+                    <td>Desderman N 1l</td>
+                    <td>1025,00 RSD</td>
+                    <td class="inputc"><input name="D4" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd5" for="D5" id="D5">D5</label>
+                        <input type="hidden" name="ld5" id="ld5">
+                    </td>
+                    <td>Esemtan WL 1L</td>
+                    <td>703,00 RSD</td>
+                    <td class="inputc"><input name="D5" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd6" for="D6" id="D6">D6</label>
+                        <input type="hidden" name="ld6" id="ld6">
+                    </td>
+                    <td>Kodan forte obojeni 1L</td>
+                    <td>1260,00 RSD</td>
+                    <td class="inputc"><input name="D6" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd7" for="D7" id="D7">D7</label>
+                        <input type="hidden" name="ld7" id="ld7">
+                    </td>
+                    <td>Mikrozid AF Liquid 1L</td>
+                    <td>850,00 RSD</td>
+                    <td class="inputc"><input name="D7" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd8" for="D8" id="D8">D8</label>
+                        <input type="hidden" name="ld8" id="ld8">
+                    </td>
+                    <td>Octecare sprej za kožu 50ml</td>
+                    <td>467,00 RSD</td>
+                    <td class="inputc"><input name="D8" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd9" for="D9" id="D9">D9</label>
+                        <input type="hidden" name="ld9" id="ld9">
+                    </td>
+                    <td>Octenisan WL 1L</td>
+                    <td>884,00 RSD</td>
+                    <td class="inputc"><input name="D9" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd10" for="D10" id="D10">D10</label>
+                        <input type="hidden" name="ld10" id="ld10">
+                    </td>
+                    <td>AOctenisept 1l</td>
+                    <td>4027,00 RSD</td>
+                    <td class="inputc"><input name="D10" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd11" for="D11" id="D11">D11</label>
+                        <input type="hidden" name="ld11" id="ld11">
+                    </td>
+                    <td>Povidon jod rastvor a 500 ml</td>
+                    <td>495,00 RSD</td>
+                    <td class="inputc"><input name="D11" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wd12" for="D12" id="D12">D12</label>
+                        <input type="hidden" name="ld12" id="ld12">
+                    </td>
+                    <td>Skinman Soft protect FF a 1L</td>
+                    <td>1585,00 RSD</td>
+                    <td class="inputc"><input name="D12" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="materijaliT" colspan="4">UGRADNI MATERIJALI</td>
+                </tr>
+                <tr class="sredina">
+                    <td id="kod">KOD</td>
+                    <td id="naziv">NAZIV</td>
+                    <td id="cena">CENA</td>
+                    <td id="kolicina">KOLIČINA</td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum1" for="UM1" id="UM1">UM1</label>
+                        <input type="hidden" name="lum1" id="lum1">
+                    </td>
+                    <td>Articuleze 12/14 Metal Head 32mm</td>
+                    <td>26400,00 RSD</td>
+                    <td class="inputc"><input name="UM1" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum2" for="UM2" id="UM2">UM2</label>
+                        <input type="hidden" name="lum2" id="lum2">
+                    </td>
+                    <td>EEA 25mm sgl use stapler</td>
+                    <td>49870,00 RSD</td>
+                    <td class="inputc"><input name="UM2" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum3" for="UM3" id="UM3">UM3</label>
+                        <input type="hidden" name="lum3" id="lum3">
+                    </td>
+                    <td>Kortikalni zavrtanj 3.5x14-26mm</td>
+                    <td>572,00 RSD</td>
+                    <td class="inputc"><input name="UM3" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum4" for="UM4" id="UM4">UM4</label>
+                        <input type="hidden" name="lum4" id="lum4">
+                    </td>
+                    <td>Koštani cement Biomet, ZB-300394</td>
+                    <td>6995,00 RSD</td>
+                    <td class="inputc"><input name="UM4" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum5" for="UM5" id="UM5">UM5</label>
+                        <input type="hidden" name="lum5" id="lum5">
+                    </td>
+                    <td>M/L Femoral stem taper standard P00015 </td>
+                    <td>103950,00 RSD</td>
+                    <td class="inputc"><input name="UM5" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum6" for="UM6" id="UM6">UM6</label>
+                        <input type="hidden" name="lum6" id="lum6">
+                    </td>
+                    <td>Maleolarni zavrtanj 3.5x45-55mm</td>
+                    <td>748,00 RSD</td>
+                    <td class="inputc"><input name="UM6" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum7" for="UM7" id="UM7">UM7</label>
+                        <input type="hidden" name="lum7" id="lum7">
+                    </td>
+                    <td>Parietene Macroporous Mesh PPM1510</td>
+                    <td>3500,00 RSD</td>
+                    <td class="inputc"><input name="UM7" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum8" for="UM8" id="UM8">UM8</label>
+                        <input type="hidden" name="lum8" id="lum8">
+                    </td>
+                    <td>Pinn Sector Acet Cup 50mm 121722050</td>
+                    <td>38500,00 RSD</td>
+                    <td class="inputc"><input name="UM8" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum9" for="UM9" id="UM9">UM9</label>
+                        <input type="hidden" name="lum9" id="lum9">
+                    </td>
+                    <td>Pulsavac-pištolj za ispiranje rana I-00067</td>
+                    <td>11016,00 RSD</td>
+                    <td class="inputc"><input name="UM9" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum10" for="UM10" id="UM10">UM10</label>
+                        <input type="hidden" name="lum10" id="lum10">
+                    </td>
+                    <td>Surgicel fibrillar 2,5x5cm a10 411961</td>
+                    <td>5643,00 RSD</td>
+                    <td class="inputc"><input name="UM10" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum11" for="UM11" id="UM11">UM11</label>
+                        <input type="hidden" name="lum11" id="lum11">
+                    </td>
+                    <td>Surgicel 5x7.5cm a12 1903EE </td>
+                    <td>1540,00 RSD</td>
+                    <td class="inputc"><input name="UM11" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum12" for="UM12" id="UM12">UM12</label>
+                        <input type="hidden" name="lum12" id="lum12">
+                    </td>
+                    <td>Surgicel 10x20cm a12 1902EE</td>
+                    <td>2780,00 RSD</td>
+                    <td class="inputc"><input name="UM12" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wum13" for="UM13" id="UM13">UM13</label>
+                        <input type="hidden" name="lum13" id="lum13">
+                    </td>
+                    <td>UMM3 Ultrapro Mesh UND/BLU 15x15 cm</td>
+                    <td>17500,00 RSD</td>
+                    <td class="inputc"><input name="UM13" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="materijaliT" colspan="4">HIRUŠKI MATERIJALI</td>
+                </tr>
+                <tr class="sredina">
+                    <td id="kod">KOD</td>
+                    <td id="naziv">NAZIV</td>
+                    <td id="cena">CENA</td>
+                    <td id="kolicina">KOLIČINA</td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm1" for="HM1" id="HM1">HM1</label>
+                        <input type="hidden" name="lhm1" id="lhm1">
+                    </td>
+                    <td>Endoclip II ml 10MMAPPLI /176657</td>
+                    <td>13710,00 RSD</td>
+                    <td class="inputc"><input name="HM1" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm2" for="HM2" id="HM2">HM2</label>
+                        <input type="hidden" name="lhm2" id="lhm2">
+                    </td>
+                    <td>HAR36 Harmonic ACE 36cm</td>
+                    <td>99120,00 RSD</td>
+                    <td class="inputc"><input name="HM2" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm3" for="HM3" id="HM3">HM3</label>
+                        <input type="hidden" name="lhm3" id="lhm3">
+                    </td>
+                    <td>Konac Ethilon 2-0 bx24 W1626T</td>
+                    <td>565,00 RSD</td>
+                    <td class="inputc"><input name="HM3" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm4" for="HM4" id="HM4">HM4</label>
+                        <input type="hidden" name="lhm4" id="lhm4">
+                    </td>
+                    <td>Konac hiruški LAN No100</td>
+                    <td>6242,00 RSD</td>
+                    <td class="inputc"><input name="HM4" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm5" for="HM5" id="HM5">HM5</label>
+                        <input type="hidden" name="lhm5" id="lhm5">
+                    </td>
+                    <td>Laparoskopske makaze Grasper C4130</td>
+                    <td>9840,00 RSD</td>
+                    <td class="inputc"><input name="HM5" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm6" for="HM6" id="HM6">HM6</label>
+                        <input type="hidden" name="lhm6" id="lhm6">
+                    </td>
+                    <td>Ligasure impact LF4418</td>
+                    <td>88800,00 RSD</td>
+                    <td class="inputc"><input name="HM6" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm7" for="HM7" id="HM7">HM7</label>
+                        <input type="hidden" name="lhm7" id="lhm7">
+                    </td>
+                    <td>Ligature Clip Small 30 PL565T žuta</td>
+                    <td>840,00 RSD</td>
+                    <td class="inputc"><input name="HM7" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm8" for="HM8" id="HM8">HM8</label>
+                        <input type="hidden" name="lhm8" id="lhm8">
+                    </td>
+                    <td>Ligatura Clips M/L 20 PL568T zelena</td>
+                    <td>1380,00 RSD</td>
+                    <td class="inputc"><input name="HM8" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm9" for="HM9" id="HM9">HM9</label>
+                        <input type="hidden" name="lhm9" id="lhm9">
+                    </td>
+                    <td>Ligature Clip Medium 30 PL567T plava</td>
+                    <td>930,00 RSD</td>
+                    <td class="inputc"><input name="HM9" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm10" for="HM10" id="HM10">HM10</label>
+                        <input type="hidden" name="lhm10" id="lhm10">
+                    </td>
+                    <td>Ligature Clip Large 20 PL561T narandžasta </td>
+                    <td>1345,00 RSD</td>
+                    <td class="inputc"><input name="HM10" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm11" for="HM11" id="HM11">HM11</label>
+                        <input type="hidden" name="lhm11" id="lhm11">
+                    </td>
+                    <td>Maxon 3-0GRN V-20 6233-41</td>
+                    <td>350,00 RSD</td>
+                    <td class="inputc"><input name="HM11" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm12" for="HM12" id="HM12">HM12</label>
+                        <input type="hidden" name="lhm12" id="lhm12">
+                    </td>
+                    <td>Maxon 4-0GRN CV-23</td>
+                    <td>325,00 RSD</td>
+                    <td class="inputc"><input name="HM12" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm13" for="HM13" id="HM13">HM13</label>
+                        <input type="hidden" name="lhm13" id="lhm13">
+                    </td>
+                    <td>Prolene 2-0 90cm bx12 W8843</td>
+                    <td>965,00 RSD</td>
+                    <td class="inputc"><input name="HM13" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm14" for="HM14" id="HM14">HM14</label>
+                        <input type="hidden" name="lhm14" id="lhm14">
+                    </td>
+                    <td>Prolene 3-0, 90cm a36 W8522H</td>
+                    <td>450,00 RSD</td>
+                    <td class="inputc"><input name="HM14" type="number" placeholder="0" min="0"></td>
+                </tr> 
+                <tr>
+                    <td class="kodc">
+                        <label id="whm15" for="HM15" id="HM15">HM15</label>
+                        <input type="hidden" name="lhm15" id="lhm15">
+                    </td>
+                    <td>Prolene 4-0 90cm bx12 W8355</td>
+                    <td>960,00 RSD</td>
+                    <td class="inputc"><input name="HM15" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm16" for="HM16" id="HM16">HM16</label>
+                        <input type="hidden" name="lhm16" id="lhm16">
+                    </td>
+                    <td>Prolene 5-0 75cm a36 EH7477H</td>
+                    <td>470,00 RSD</td>
+                    <td class="inputc"><input name="HM16" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="whm17" for="HM17" id="HM17">HM17</label>
+                        <input type="hidden" name="lhm17" id="lhm17">
+                    </td>
+                    <td>Prolene 6-0 a36 W8706H</td>
+                    <td>525,00 RSD</td>
+                    <td class="inputc"><input name="HM17" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="materijaliT" colspan="4">LEKOVI</td>
+                </tr>
+                <tr class="sredina">
+                    <td id="kod">KOD</td>
+                    <td id="naziv">NAZIV</td>
+                    <td id="cena">CENA</td>
+                    <td id="kolicina">KOLIČINA</td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl1" for="L1" id="L1">L1</label>
+                        <input type="hidden" name="ll1" id="ll1">
+                    </td>
+                    <td>Bedoxin amp.50x50 mg/2ml</td>
+                    <td>25,00 RSD</td>
+                    <td class="inputc"><input name="L1" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl2" for="L2" id="L2">L2</label>
+                        <input type="hidden" name="ll2" id="ll2">
+                    </td>
+                    <td>Bensedin 10mg/2ml 10x2ml</td>
+                    <td>32,00 RSD</td>
+                    <td class="inputc"><input name="L2" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl3" for="L3" id="L3">L3</label>
+                        <input type="hidden" name="ll3" id="ll3">
+                    </td>
+                    <td>Beviplex amp.5x(40+4mg+10mg+8mg)</td>
+                    <td>132,00 RSD</td>
+                    <td class="inputc"><input name="L3" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl4" for="L4" id="L4">L4</label>
+                        <input type="hidden" name="ll4" id="ll4">
+                    </td>
+                    <td>Buscopan amp.6x20mg/ml</td>
+                    <td>37,00 RSD</td>
+                    <td class="inputc"><input name="L4" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl5" for="L5" id="L5">L5</label>
+                        <input type="hidden" name="ll5" id="ll5">
+                    </td>
+                    <td>Diklofen amp.5x75 mg/3 ml dz</td>
+                    <td>25,00 RSD</td>
+                    <td class="inputc"><input name="L5" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl6" for="L6" id="L6">L6</label>
+                        <input type="hidden" name="ll6" id="ll6">
+                    </td>
+                    <td>Fraxiparine amp.10x2850ij. 0.3 ml</td>
+                    <td>285,00 RSD</td>
+                    <td class="inputc"><input name="L6" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl7" for="L7" id="L7">L7</label>
+                        <input type="hidden" name="ll7" id="ll7">
+                    </td>
+                    <td>Fraxiparine amp.10x5700ij. 0.6 ml</td>
+                    <td>412,00 RSD</td>
+                    <td class="inputc"><input name="L7" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl8" for="L8" id="L8">L8</label>
+                        <input type="hidden" name="ll8" id="ll8">
+                    </td>
+                    <td>Gentamicin amp.10x80mg/2ml dz</td>
+                    <td>40,00 RSD</td>
+                    <td class="inputc"><input name="L8" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl9" for="L9" id="L9">L9</label>
+                        <input type="hidden" name="ll9" id="ll9">
+                    </td>
+                    <td>Gentamicin amp.10x120mg/2ml dz</td>
+                    <td>65,00 RSD</td>
+                    <td class="inputc"><input name="L9" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl10" for="L10" id="L10">L10</label>
+                        <input type="hidden" name="ll10" id="ll10">
+                    </td>
+                    <td>Glukoza 5% rastvor a 500 ml dz</td>
+                    <td>72,00 RSD</td>
+                    <td class="inputc"><input name="L10" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl11" for="L11" id="L11">L11</label>
+                        <input type="hidden" name="ll11" id="ll11">
+                    </td>
+                    <td>Hartmanov rastvor a 500ml</td>
+                    <td>85,00 RSD</td>
+                    <td class="inputc"><input name="L11" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl12" for="L12" id="L12">L12</label>
+                        <input type="hidden" name="ll12" id="ll12">
+                    </td>
+                    <td>Heparin inj 5x5000ij/1ml</td>
+                    <td>120,00 RSD</td>
+                    <td class="inputc"><input name="L12" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl13" for="L13" id="L13">L13</label>
+                        <input type="hidden" name="ll13" id="ll13">
+                    </td>
+                    <td>Humani Albumin 5% 1x250ml</td>
+                    <td>7145,00 RSD</td>
+                    <td class="inputc"><input name="L13" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl14" for="L14" id="L14">L14</label>
+                        <input type="hidden" name="ll14" id="ll14">
+                    </td>
+                    <td>Humani Albumin20% 1x50ml</td>
+                    <td>5680,00 RSD</td>
+                    <td class="inputc"><input name="L14" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl15" for="L15" id="L15">L15</label>
+                        <input type="hidden" name="ll15" id="ll15">
+                    </td>
+                    <td>Lorazepam, tbl. 20x2,5 mg.</td>
+                    <td>10,00 RSD</td>
+                    <td class="inputc"><input name="L15" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl16" for="L16" id="L16">L16</label>
+                        <input type="hidden" name="ll16" id="ll16">
+                    </td>
+                    <td>Manitol sol. 20% a 250 ml</td>
+                    <td>355,00 RSD</td>
+                    <td class="inputc"><input name="L16" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl17" for="L17" id="L17">L17</label>
+                        <input type="hidden" name="ll17" id="ll17">
+                    </td>
+                    <td>Novalgetol amp.50x2,5g/5ml</td>
+                    <td>40,00 RSD</td>
+                    <td class="inputc"><input name="L17" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl18" for="L18" id="L18">L18</label>
+                        <input type="hidden" name="ll18" id="ll18">
+                    </td>
+                    <td>Rastvor fiziološki 500ml HF</td>
+                    <td>80,00 RSD</td>
+                    <td class="inputc"><input name="L18" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl19" for="L19" id="L19">L19</label>
+                        <input type="hidden" name="ll19" id="ll19">
+                    </td>
+                    <td>Ringerov rastvor inf. 500ml dz</td>
+                    <td>90,00 RSD</td>
+                    <td class="inputc"><input name="L19" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="kodc">
+                        <label id="wl20" for="L20" id="L20">L20</label>
+                        <input type="hidden" name="ll20" id="ll20">
+                    </td>
+                    <td>Vitamin C amp.50x500mg/5ml</td>
+                    <td>45,00 RSD</td>
+                    <td class="inputc"><input name="L20" type="number" placeholder="0" min="0"></td>
+                </tr>
+                <tr>
+                    <td id="email" colspan="2"><span>E-mail adresa: </span><input type="email" name="email" placeholder="example@mail.com"></td>
+                    <td id="sub" colspan="2"><input type="submit" name="poruci" value="PORUČITE"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    
+
+    <footer>
+        <div id="medsuplogo"><img src="logo/medsup120x120.png" alt="logo"></div>
+        <div  id="newL">
+            <div id="newLC">
+                <span id="mailI" class="dm"><img src="ikonice/icons8-mail-50.png" alt="newsletter"></span>
+                <span id="mailH"><h2>Prijavite se na naš Newsletter</h2></span>
+                <span id="mailB"><a href="newsletter.html"><button>Prijavite se</button></a></span>
+                <span id="mailP"><p>Budite obavešteni o našim popustima</p></span>
+            </div>
+       </div>
+        <div class="drustveneM">
+            <div id="dmico">
+                <span class="dm" id="fb"><a href="#"><img src="ikonice/icons8-facebook-48.png" alt="fb"></a></span>
+                <span class="dm" id="in"><a href="#"><img src="ikonice/icons8-linkedin-48.png" alt="in"></a></span>
+                <span class="dm" id="x"><a href="#"><img src="ikonice/icons8-twitterx-48.png" alt="x"></a></span>
+                <span class="dm" id="ig"><a href="#"><img src="ikonice/icons8-instagram-48.png" alt="ig"></a></span>
+            </div>
+            <span id="dmp"><p>Zapratite nas na društvenim mrežama</p></span>
+        </div>
+        <div class="copyright"><p>Copyright ©2024 MedSup. Sva prava su zadržana. Developed by MedSup.</p></div>
+    </footer>
+
+    <script>
+        document.getElementById('lop1').value = document.getElementById('wop1').textContent;
+        document.getElementById('lop2').value = document.getElementById('wop2').textContent;
+        document.getElementById('lop3').value = document.getElementById('wop3').textContent;
+        document.getElementById('lop4').value = document.getElementById('wop4').textContent;
+        document.getElementById('lop5').value = document.getElementById('wop5').textContent;
+        document.getElementById('lop6').value = document.getElementById('wop6').textContent;
+        document.getElementById('lop7').value = document.getElementById('wop7').textContent;
+        document.getElementById('lop8').value = document.getElementById('wop8').textContent;
+        document.getElementById('lop9').value = document.getElementById('wop9').textContent;
+        document.getElementById('lop10').value = document.getElementById('wop10').textContent;
+        document.getElementById('lop11').value = document.getElementById('wop11').textContent;
+        document.getElementById('lop12').value = document.getElementById('wop12').textContent;
+        document.getElementById('lop13').value = document.getElementById('wop13').textContent;
+        document.getElementById('lop14').value = document.getElementById('wop14').textContent;
+        document.getElementById('lop15').value = document.getElementById('wop15').textContent;
+        document.getElementById('lop16').value = document.getElementById('wop16').textContent;
+        document.getElementById('lop17').value = document.getElementById('wop17').textContent;
+        document.getElementById('lop18').value = document.getElementById('wop18').textContent;
+        document.getElementById('lop19').value = document.getElementById('wop19').textContent;
+        document.getElementById('lop20').value = document.getElementById('wop20').textContent;
+        document.getElementById('lop21').value = document.getElementById('wop21').textContent;
+        document.getElementById('lop22').value = document.getElementById('wop22').textContent;
+        document.getElementById('lop23').value = document.getElementById('wop23').textContent;
+        document.getElementById('lop24').value = document.getElementById('wop24').textContent;
+        document.getElementById('lop25').value = document.getElementById('wop25').textContent;
+        document.getElementById('lop26').value = document.getElementById('wop26').textContent;
+        document.getElementById('lop27').value = document.getElementById('wop27').textContent;
+        document.getElementById('lop28').value = document.getElementById('wop28').textContent;
+        document.getElementById('lop29').value = document.getElementById('wop29').textContent;
+        document.getElementById('lop30').value = document.getElementById('wop30').textContent;
+        document.getElementById('lop31').value = document.getElementById('wop31').textContent;
+        document.getElementById('lop32').value = document.getElementById('wop32').textContent;
+        document.getElementById('lop33').value = document.getElementById('wop33').textContent;
+        document.getElementById('lop34').value = document.getElementById('wop34').textContent;
+        document.getElementById('lop35').value = document.getElementById('wop35').textContent;
+        document.getElementById('lop36').value = document.getElementById('wop36').textContent;
+        document.getElementById('lop37').value = document.getElementById('wop37').textContent;
+        document.getElementById('lop38').value = document.getElementById('wop38').textContent;
+        document.getElementById('lop39').value = document.getElementById('wop39').textContent;
+        document.getElementById('lop40').value = document.getElementById('wop40').textContent;
+        document.getElementById('lop41').value = document.getElementById('wop41').textContent;
+        document.getElementById('lop42').value = document.getElementById('wop42').textContent;
+        document.getElementById('lop43').value = document.getElementById('wop43').textContent;
+        document.getElementById('lop44').value = document.getElementById('wop44').textContent;
+        document.getElementById('lop45').value = document.getElementById('wop45').textContent;
+        document.getElementById('lop46').value = document.getElementById('wop46').textContent;
+        document.getElementById('lop47').value = document.getElementById('wop47').textContent;
+        document.getElementById('lop48').value = document.getElementById('wop48').textContent;
+        document.getElementById('lop49').value = document.getElementById('wop49').textContent;
+        document.getElementById('lop50').value = document.getElementById('wop50').textContent;
+        document.getElementById('lop51').value = document.getElementById('wop51').textContent;
+        document.getElementById('lop52').value = document.getElementById('wop52').textContent;
+        document.getElementById('lop53').value = document.getElementById('wop53').textContent;
+        document.getElementById('lop54').value = document.getElementById('wop54').textContent;
+        document.getElementById('lop55').value = document.getElementById('wop55').textContent;
+        document.getElementById('lop56').value = document.getElementById('wop56').textContent;
+        document.getElementById('lop57').value = document.getElementById('wop57').textContent;
+        document.getElementById('lop58').value = document.getElementById('wop58').textContent;
+        document.getElementById('lop59').value = document.getElementById('wop59').textContent;
+        document.getElementById('lum1').value = document.getElementById('wum1').textContent;
+        document.getElementById('lum2').value = document.getElementById('wum2').textContent;
+        document.getElementById('lum3').value = document.getElementById('wum3').textContent;
+        document.getElementById('lum4').value = document.getElementById('wum4').textContent;
+        document.getElementById('lum5').value = document.getElementById('wum5').textContent;
+        document.getElementById('lum6').value = document.getElementById('wum6').textContent;
+        document.getElementById('lum7').value = document.getElementById('wum7').textContent;
+        document.getElementById('lum8').value = document.getElementById('wum8').textContent;
+        document.getElementById('lum9').value = document.getElementById('wum9').textContent;
+        document.getElementById('lum10').value = document.getElementById('wum10').textContent;
+        document.getElementById('lum11').value = document.getElementById('wum11').textContent;
+        document.getElementById('lum12').value = document.getElementById('wum12').textContent;
+        document.getElementById('lum13').value = document.getElementById('wum13').textContent;
+        document.getElementById('ld1').value = document.getElementById('wd1').textContent;
+        document.getElementById('ld2').value = document.getElementById('wd2').textContent;
+        document.getElementById('ld3').value = document.getElementById('wd3').textContent;
+        document.getElementById('ld4').value = document.getElementById('wd4').textContent;
+        document.getElementById('ld5').value = document.getElementById('wd5').textContent;
+        document.getElementById('ld6').value = document.getElementById('wd6').textContent;
+        document.getElementById('ld7').value = document.getElementById('wd7').textContent;
+        document.getElementById('ld8').value = document.getElementById('wd8').textContent;
+        document.getElementById('ld9').value = document.getElementById('wd9').textContent;
+        document.getElementById('ld10').value = document.getElementById('wd10').textContent;
+        document.getElementById('ld11').value = document.getElementById('wd11').textContent;
+        document.getElementById('ld12').value = document.getElementById('wd12').textContent;
+        document.getElementById('lhm1').value = document.getElementById('whm1').textContent;
+        document.getElementById('lhm2').value = document.getElementById('whm2').textContent;
+        document.getElementById('lhm3').value = document.getElementById('whm3').textContent;
+        document.getElementById('lhm4').value = document.getElementById('whm4').textContent;
+        document.getElementById('lhm5').value = document.getElementById('whm5').textContent;
+        document.getElementById('lhm6').value = document.getElementById('whm6').textContent;
+        document.getElementById('lhm7').value = document.getElementById('whm7').textContent;
+        document.getElementById('lhm8').value = document.getElementById('whm8').textContent;
+        document.getElementById('lhm9').value = document.getElementById('whm9').textContent;
+        document.getElementById('lhm10').value = document.getElementById('whm10').textContent;
+        document.getElementById('lhm11').value = document.getElementById('whm11').textContent;
+        document.getElementById('lhm12').value = document.getElementById('whm12').textContent;
+        document.getElementById('lhm13').value = document.getElementById('whm13').textContent;
+        document.getElementById('lhm14').value = document.getElementById('whm14').textContent;
+        document.getElementById('lhm15').value = document.getElementById('whm15').textContent;
+        document.getElementById('lhm16').value = document.getElementById('whm16').textContent;
+        document.getElementById('lhm17').value = document.getElementById('whm17').textContent;
+        document.getElementById('ll1').value = document.getElementById('wl1').textContent;
+        document.getElementById('ll2').value = document.getElementById('wl2').textContent;
+        document.getElementById('ll3').value = document.getElementById('wl3').textContent;
+        document.getElementById('ll4').value = document.getElementById('wl4').textContent;
+        document.getElementById('ll5').value = document.getElementById('wl5').textContent;
+        document.getElementById('ll6').value = document.getElementById('wl6').textContent;
+        document.getElementById('ll7').value = document.getElementById('wl7').textContent;
+        document.getElementById('ll8').value = document.getElementById('wl8').textContent;
+        document.getElementById('ll9').value = document.getElementById('wl9').textContent;
+        document.getElementById('ll10').value = document.getElementById('wl10').textContent;
+        document.getElementById('ll11').value = document.getElementById('wl11').textContent;
+        document.getElementById('ll12').value = document.getElementById('wl12').textContent;
+        document.getElementById('ll13').value = document.getElementById('wl13').textContent;
+        document.getElementById('ll14').value = document.getElementById('wl14').textContent;
+        document.getElementById('ll15').value = document.getElementById('wl15').textContent;
+        document.getElementById('ll16').value = document.getElementById('wl16').textContent;
+        document.getElementById('ll17').value = document.getElementById('wl17').textContent;
+        document.getElementById('ll18').value = document.getElementById('wl18').textContent;
+        document.getElementById('ll19').value = document.getElementById('wl19').textContent;
+        document.getElementById('ll20').value = document.getElementById('wl20').textContent;
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,997 @@
+html{
+    width: 1800px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(175, 175, 175);
+    width: 100%;  
+}
+
+/*Header*//*-----------------------------------------------------------*/
+header{
+    background-color: #4b0000;
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+nav{
+    margin:0 50px;
+    width: auto;
+    height:160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+li{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 100%;
+    white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navigacija{
+    grid-column: -1;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.navigacija button{
+    padding: 5px;
+    margin: none;
+    border-radius: 15px;
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.navigacija a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    background-color: white;
+    padding: 0px 25px;
+    border: solid 3px black;
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+.navigacija button{
+    background-color: white;
+}
+
+.navigacija button:hover{
+    background-color:rgb(175, 175, 175);
+    color: #4b0000;
+}
+
+/*Dropdown*/
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    padding: 5px;
+    border: none;
+    background-color:white;
+    color: black;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 100%;
+    left: 0;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:rgb(175, 175, 175);
+    color: #4b0000;
+}
+
+.bru:hover{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.brd:hover{
+    border-radius: 0px 0px 15px 15px;
+}
+
+/*Sadrzaj*//*-----------------------------------------------------------*/
+#glavniS{
+    margin: 20px;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 1fr 70px;
+    gap: 15px;*/
+}
+
+#glavniS img{
+    margin: 20px;
+    border-radius: 10px;
+    width: 50%;
+    border: 3px solid #4b0000;
+}
+
+.banerh{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banerh h1{
+    margin: 0px;
+}
+
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer*//*-----------------------------------------------------------*/
+footer{
+    padding: 10px;
+    background-color: #4b0000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 100px 50px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.copyright{
+    grid-column:span 2;
+    grid-row:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#medsuplogo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#medsuplogo img{
+    margin: 15px;
+}
+
+.drustveneM{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#dmico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#dmp{
+    display: flex;
+    justify-content: center;
+    grid-column: span 4;
+}
+#dmp p{
+    margin-top:5px;
+    margin-bottom: 0;
+}
+
+#newL{
+    grid-row:span 2;
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+footer p{
+    color: white;
+}
+
+.dm img{
+    background-color: white;
+    border-radius: 15px;
+}
+
+#newL button{
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+#newL button:hover{
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+#newLC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#mailI{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+}
+#mailI img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#mailH{
+    margin: auto;
+}
+#mailH h2{
+    margin: 0;
+}
+
+#mailB{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#mailP{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+#mailP p{
+    margin: 0;
+}
+
+/*Newsletter*//*-----------------------------------------------------------*/
+.centernwlb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centernwlb button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#nwl{
+    input[type=number]::-webkit-inner-spin-button, /*sakrivanje tockica za brojeve*/
+    input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+}
+
+#nwldiv{
+    margin:70px 0;
+}
+
+.inputnwli{
+ width: 200px;
+ height: 19px;
+ margin-top: 5px;
+ font-size: 16px;
+}
+
+#nwl table{
+width:500px; 
+margin:10px auto; 
+border:3px solid #4b0000;
+border-radius: 15px;
+padding: 10px;
+}
+
+.nwlinput{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nwlinputf{
+    text-align: right;
+    padding-right: 10px;
+    align-items: center;
+    font-weight: 600;
+}
+
+/*Kontkat*//*-----------------------------------------------------------*/
+#omotackp{
+    width: 1000px;
+    background-color: white;
+    padding: 15px;
+    border: #4b0000 5px solid;
+    border-radius: 15px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+#kontakt{
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#kontakt h4,p,h3,h2{
+    margin: 10px 0;
+}
+
+#tekstk{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+}
+
+#mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapaif{
+    border: #4b0000 3px solid;
+}
+
+/*O nama*//*-----------------------------------------------------------*/
+#onomotac{
+    width: 1000px;
+    height: auto;
+    margin: 50px auto;
+    padding: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 100px 100px 1fr 1fr 1fr 250px 250px ;
+    border: #4b0000 5px solid;
+    border-radius: 15px;
+}
+
+#onamanaslov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#onamauvod p{
+    margin: 0px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#onamauvod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.onsadrzaj{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#onvizija{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#onvizija h3{
+    font-weight: 400;
+}
+
+#onslika1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#onslika1 img{
+    height: 267px;
+    width: 400px;
+    border: #4b0000 3px solid;
+    border-radius: 15px;
+}
+
+#onponuda{
+    grid-column: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#onponuda h3{
+    margin: 5px 0px;
+    font-weight: 400;
+}
+
+#onslika2{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#onslika2 img{
+    height: 267px;
+    width: 400px;
+    margin-right: 50px;
+    border: #4b0000 3px solid;
+    border-radius: 15px;
+}
+
+#onnasap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#onnasap h3{
+    font-weight: 400;
+}
+
+#onslika3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#onslika3 img{
+    height: 267px;
+    width: 400px;
+    border: #4b0000 3px solid;
+    border-radius: 15px;
+}
+
+#onzasto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#onzasto h3{
+    margin: 5px 0px;
+    font-weight: 400;
+}
+
+#onhvala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#onhvala h2{
+    font-weight: 400;
+}
+
+/*Katalog*//*-----------------------------------------------------------*/
+#komotac{
+    width: 1000px;
+    height: 400px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#komotac button{
+    font-size: 24px;
+    width: 250px;
+    height: 60px;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#komotac button:hover{
+    background-color: rgb(175, 175, 175);
+    color: #4b0000;
+}
+
+#opstiM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#hiruskiM{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#ugradniM{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#dezinfekcijaM{
+    display: flex;
+    justify-content: end;
+    align-items: top;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#lekoviM{
+    display: flex;
+    justify-content: start;
+    align-items: top;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+/*Katalog*//*Opšti materijal*//*----------------------------------------*/
+#komotacOm{
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    width: 100%;
+}
+
+.traka{
+    background-color: #4b0000;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.traka a{
+    text-decoration: none;
+    color:white ;
+    font-size:18px ;
+    font-weight:600;
+}
+
+.traka a:hover{
+    color: rgb(175, 175, 175);
+}
+
+.trakastil{
+    margin: 5px 0;
+    border: none;
+    height: 2px;
+    width: auto;
+    background-color: #4b0000;
+}
+
+#katalogOm{
+    margin-left: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr
+
+}
+
+.artikal{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin: auto;
+}
+
+.artikal img{
+    width: 250px;
+    height: 250px;
+    border: #4b0000 2px solid;
+    border-radius: 10px;
+}
+
+.artikal img:hover{
+    width: 370px;
+    height: 370px;
+    position: absolute;
+}
+
+.artikal p{
+    font-weight: 600;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/*FLASTERI*/
+#flasteri{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+}
+
+#flasteri h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#flasterih1{
+    grid-column: span 4;
+}
+
+/*ZAVONJNI MATERIJAL*/
+#zavojniM{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+}
+
+#zavojniM h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#zavojniMh1{
+    grid-column: span 4;
+}
+
+/*ŠPRICEVI*/
+#spricevi{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#spricevi h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#spricevih1{
+    grid-column: span 4;
+}
+
+/*SKALPELI*/
+#skalpeli{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#skalpeli h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#skalpelih1{
+    grid-column: span 4;
+}
+
+/*DRENAŽE*/
+#drenaze{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#drenaze h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#drenazeh1{
+    grid-column: span 4;
+}
+
+/*RUKAVICE*/
+#rukavice{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+}
+
+#rukavice h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#rukaviceh1{
+    grid-column: span 4;
+}
+
+/*SETOVI ZA JEDNOKRETNU UPOTREBU*/
+#raucodrape{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#raucodrape h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#raucodrapeh1{
+    grid-column: span 4;
+}
+
+/*ZAŠTITA*/
+#zastita{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#zastita h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#zastitah1{
+    grid-column: span 4;
+}
+
+/*KATETERI*/
+#kateteri{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#kateteri h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#kateterih1{
+    grid-column: span 4;
+}
+
+/*VAZELIN*/
+#vazelin{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#vazelin h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#vazelinh1{
+    grid-column: span 4;
+}
+
+/*STERI DRAPE*/
+#drape{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#drape h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#drapeh1{
+    grid-column: span 4;
+}
+
+/*Katalog*//*Dezinfekcija*//*------------------------------------------*/
+#komotacD{
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#katalogD{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr
+
+}
+
+#katalogD h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#dezinfekcijah1{
+    grid-column: span 4;
+}
+
+/*Katalog*//*Lekovi*//*-----------------------------------------------*/
+#komotacL{
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#katalogL{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr 1fr 1fr
+
+}
+
+#katalogL h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#lekovih1{
+    grid-column: span 4;
+}
+
+/*Katalog*//*Ugradni materijali*//*-----------------------------------*/
+
+#komotacUm{
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#katalogUm{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr 1fr
+
+}
+
+#katalogUm h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#ugradniMh1{
+    grid-column: span 4;
+}
+
+/*Katalog*//*Hiruski materijali*//*-----------------------------------*/
+#komotacHm{
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#katalogHm{
+    margin-left: 20px;
+    display: grid;
+    grid-template-rows: 1fr 0.33fr 0.66fr;
+}
+
+/*KONCI*/
+#konci{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr;
+}
+
+#konci h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#koncih1{
+    grid-column: span 4;
+}
+
+/*INSTRUMENTI ZA JEDNOKRATNU UPOTREBU*/
+#izju{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+#izju h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#izjuh1{
+    grid-column: span 4;
+}
+
+/*HEMOSTATSKI KLIPOVI*/
+#hemosk{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+}
+
+#hemosk h1{
+    margin:0;
+    padding-left: 10px;
+    grid-row: span 4;
+}
+
+#hemoskh1{
+    grid-column: span 4;
+}

@@ -1,0 +1,518 @@
+/*Body*//*-----------------------------------------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(175, 175, 175);   
+}
+
+/*Header*//*-----------------------------------------------------------*/
+header{
+    background-color: #4b0000;
+    height:200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    margin:0 50px;
+    width: auto;
+    height:160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+li{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 100%;
+    white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navigacija{
+    grid-column: -1;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.navigacija button{
+    padding: 5px;
+    margin: none;
+    border-radius: 15px;
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.navigacija a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    background-color: white;
+    padding: 0px 25px;
+    border: solid 3px black;
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+.navigacija button{
+    background-color: white;
+}
+
+.navigacija button:hover{
+    background-color:rgb(175, 175, 175);
+    color: #4b0000;
+}
+
+/*?*/
+@media (max-width: 1200px){ 
+    body{
+        min-width: 1200px;
+    }
+}
+
+/*Dropdown*/
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    padding: 5px;
+    border: none;
+    background-color:white;
+    color: black;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 100%;
+    left: 0;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:rgb(175, 175, 175);
+    color: #4b0000;
+}
+
+.bru:hover{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.brd:hover{
+    border-radius: 0px 0px 15px 15px;
+}
+
+/*Footer*//*-----------------------------------------------------------*/
+footer{
+    padding: 10px;
+    background-color: #4b0000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 100px 50px;
+}
+
+.copyright{
+    grid-column:span 2;
+    grid-row:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#medsuplogo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#medsuplogo img{
+    margin: 15px;
+}
+
+.drustveneM{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#dmico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#dmp{
+    display: flex;
+    justify-content: center;
+    grid-column: span 4;
+}
+#dmp p{
+    margin-top:5px;
+    margin-bottom: 0;
+}
+
+#newL{
+    grid-row:span 2;
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+footer p{
+    color: white;
+}
+
+.dm img{
+    background-color: white;
+    border-radius: 15px;
+}
+
+#newL button{
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+#newL button:hover{
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+#newLC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#mailI{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+}
+#mailI img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#mailH{
+    margin: auto;
+}
+#mailH h2{
+    margin: 0;
+}
+
+#mailB{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#mailP{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+#mailP p{
+    margin: 0;
+}
+
+/*Newsletter*//*-----------------------------------------------------------*/
+.centernwlb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centernwlb button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#nwl{
+    input[type=number]::-webkit-inner-spin-button, /*sakrivanje tockica za brojeve*/
+    input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+}
+
+
+.inputnwli{
+ width: 200px;
+ height: 19px;
+ margin-top: 5px;
+ font-size: 16px;
+}
+
+#nwl table{
+width:500px; 
+margin:10px auto; 
+border:3px solid #4b0000;
+border-radius: 15px;
+padding: 10px;
+}
+
+.nwlinput{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nwlinputf{
+    text-align: right;
+    padding-right: 10px;
+    align-items: center;
+    font-weight: 600;
+}
+
+/*Katalog*//*Porucite*//*--------------------------------------------*/
+#formaO table{
+    margin: 30px auto;
+}
+
+#formaO th{
+    font-size: 22px;
+    border: #4b0000 2px solid;
+    padding: 5px;
+}
+
+.materijaliT{
+    font-size: 18px;
+    border: #4b0000 2px solid;
+    font-weight: 600;
+    text-align: center;
+}
+
+#formaO td{
+    border: #4b0000 2px solid;
+    padding: 5px;
+}
+
+.sredina{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#kod{
+    width: 70px;
+    font-weight: 600;
+}
+#naziv{
+    width: 400px;
+    font-weight: 600;
+}
+#cena{
+    width: 150px;
+    font-weight: 600;
+}
+#kolicina{
+    width: 100px;
+    font-weight: 600;
+}
+.inputc input{
+    padding-left: 10px;
+    font-size: 18px;
+    width: 45px;
+    background-color:rgb(175, 175, 175) ;
+    border: none;
+    font-weight: 600;
+}
+
+.kodc{
+   text-align: center;
+}
+
+.inputc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#por{
+    input[type='number']::-webkit-inner-spin-button, 
+    input[type='number']::-webkit-outer-spin-button { 
+    opacity: 1;
+}
+}
+
+#sub{
+    text-align: center;
+}
+
+#sub input{
+    width: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#email span{
+padding-left: 20px;
+}
+
+#email input::placeholder{
+text-align: center;
+}
+
+#email input{
+    width: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*php*//*tabela*//*--------------------------------------------*/
+
+#podz{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hjedanz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#hjedanz h1{
+    padding: 10px;
+    font-size: 36px;
+    border: #4b0000 2px solid;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+#podz th{
+    font-size: 24px;
+    font-weight: 600;
+    border: #4b0000 2px solid;
+    background-color: whitesmoke;
+}
+
+#podz td{
+    border: #4b0000 2px solid;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+#kodz{
+    width: 70px;
+    text-align: center;
+}
+
+.centarz{
+    border: #4b0000 2px solid;
+    font-weight: 600;
+    text-align: center;
+}
+
+.levoz{
+    border: #4b0000 2px solid;
+    font-weight: 600;
+    text-align:left
+}
+
+#nazivz{
+    text-align: center;
+}
+
+#cenaz{
+    text-align: center;
+}
+
+#kolicinaz{
+    text-align: center;
+}
+
+#divz{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divz img{
+   border: #4b0000 4px solid;
+   border-radius: 15px;
+   background-color: whitesmoke;
+}
+
+#bcentarz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#vremez{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#dugmez{
+    width: 200px;
+    height: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #4b0000;
+    cursor: pointer;
+}
+
+#dugmez a{
+    text-decoration: none;
+    color: black;
+}
